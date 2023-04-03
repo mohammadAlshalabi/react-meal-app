@@ -15,6 +15,11 @@ jobs:
       - name: build packages
         run: npm run build
         timeout-minutes: 2
-      - name: start project
-        run: npm start && npm run cypress:headless
-        timeout-minutes: 2
+      - name: 'UI Tests - Chrome'
+        uses: cypress-io/github-action@v5.x.x # use the explicit version number
+        with:
+          # we have already installed all dependencies above
+          install: false
+          start: npm start
+          wait-on: 'http://localhost:3000'
+          wait-on-timeout: 3
