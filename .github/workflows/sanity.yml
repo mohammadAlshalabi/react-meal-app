@@ -20,5 +20,4 @@ jobs:
         timeout-minutes: 2
       - name: Cypress run
         uses: cypress-io/github-action@v4
-        run: npm run cypress:headless
         timeout-minutes: 10
