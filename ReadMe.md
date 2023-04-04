@@ -28,6 +28,9 @@ The test suites will be ran automatically every time we push a change to the PR,
 2- Observe that the CI is triggered automatically <br />
 3- Open the actions tab and check the tests results there <br />
 
+Here is an example to check `https://github.com/mohammadAlshalabi/react-meal-app/pull/2` <br />
+To test if it's effective, open the source code and make a bug intentionally example: make the meal description is required then open a PR, all the test cases that adds meal without meal description will fail <br />
+
 #### Note: Only run visual testing spec file on headless mode on laptop, since the CI uses different machine capabilities
 
 # Manual test cases
