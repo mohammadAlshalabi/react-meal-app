@@ -2,7 +2,7 @@ const locators = require('../src/locators') //Import locators file
 const utils = require('../src/utils')
 const defaultMeals = require('../src/data').defaultMeals
 
-xdescribe('React Meals App Validation', () => {
+describe('React Meals App Validation', () => {
   beforeEach(() => {
     cy.visit('/')
   })

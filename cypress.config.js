@@ -9,6 +9,7 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://localhost:3000/',
     viewportWidth: 1800,
-	  viewportHeight: 1300
+	  viewportHeight: 1300,
+    video: false
   },
 });
