@@ -9,7 +9,7 @@ const Backdrop = (props) => {
 
 const ModalOverlay = (props) => {
   return (
-    <div className={classes.modal}>
+    <div className={classes.modal} e2e-data="cart-model">
       <div className={classes.content}>{props.children}</div>
     </div>
   );

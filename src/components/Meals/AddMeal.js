@@ -49,7 +49,7 @@ const AddMeal = ({ meals, setMeals }) => {
   };
 
   return (
-    <section className={classes2.meals}>
+    <section className={classes2.meals} e2e-data="add-meal-section">
       <Card>
         <form className={classes.form} onSubmit={handleSubmit}>
           <h2>Add a Meal</h2>
