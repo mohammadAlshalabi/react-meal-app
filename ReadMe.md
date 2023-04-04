@@ -26,7 +26,7 @@
 
 #### Note: Only run visual testing spec file on headless mode on laptop, since the CI uses different machine capabilities
 
-# MAnual test cases
+# Manual test cases
 
 You can find the manual test cases here: `https://docs.google.com/spreadsheets/d/1xKyjr2nBFfkeT-HP8JWKLe4LZa4soblqYlRwDLnxHxM/edit?usp=sharing` <br />
 
